@@ -43,7 +43,7 @@ int main()
 	cout << "\nYour checking account balance is " << checkingBalance << endl;
 	cout << "\nYour savings account balance is " << savingsBalance << endl;
 	cout << "\nThe address of your checking account balance is " << &checkingBalance << endl;
-	cout << "\nThe address of your checking account balance is " << &savingsBalance << endl;
+	cout << "\nThe address of your savings account balance is " << &savingsBalance << endl;
 
 	//Pause for user.
 	system("pause");
@@ -63,7 +63,7 @@ int main()
 	// & = address of operator - same symbol as referace, but have no relations - AT ALL!!
 	// int"*" is decalring the savings account balance varible.
 	int* ptr_savingsBalance = &savingsBalance;
-	cout << "\nThe value of ptr_checkingBalance is " << ptr_savingsBalance << endl;
+	cout << "\nThe value of ptr_savingsBalance is " << ptr_savingsBalance << endl;
 	// dereferancing operator "*" will show the value of the savings balance rather than the address where the balance is located.
 	cout << "\nThe value of " << *ptr_savingsBalance << " at the address " << ptr_savingsBalance << endl;
 
