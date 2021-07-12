@@ -1,6 +1,6 @@
 //Creator: Paul Boyer
 //contact: pauboyer@uat.edu
-//CSC215 C/C++ Prog 1
+//CSC215 C/C++ Prog 1 wk 4
 
 //Allows input and output.
 #include <iostream>
